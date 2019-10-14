@@ -39,7 +39,7 @@ const SCROLLTEAMS = document.getElementById('hpScrollAppear2');
 window.addEventListener("scroll", headingAppearByScroll2);
 
     function headingAppearByScroll2() {
-        if (window.scrollY >= 900) {
+        if (window.scrollY >= 1100) {
             SCROLLHEADINGTEAMS.style.opacity = '1';
             SCROLLHEADINGTEAMS.style.transform = 'translateY(0px)';
             SCROLLHEADINGTEAMS.style.transition = '1s ease-in-out';
@@ -56,7 +56,7 @@ headingAppearByScroll2();
 window.addEventListener("scroll", appearByScroll2);
 
     function appearByScroll2() {
-        if (window.scrollY >= 900) {
+        if (window.scrollY >= 1100) {
             SCROLLTEAMS.style.opacity = '1';
             SCROLLTEAMS.style.transform = 'translateY(0px)';
             SCROLLTEAMS.style.transition = '1s ease-in-out 0.5s';

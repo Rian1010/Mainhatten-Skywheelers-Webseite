@@ -1,0 +1,60 @@
+$phone-width: 576px;
+$tablet-width: 768px;
+$desktop-width: 992px;
+$large-desktop-width: 1200px;
+
+@mixin phone {
+    @media (min-width: $phone-width) {
+        //About Page
+        .aboutP-standard-cell {
+            padding: 0 80px;
+        }
+    }
+}
+@include phone;
+
+
+@mixin tablet {
+    @media (min-width: $tablet-width) {
+        //Homepage
+        .quote-card-1-position {
+            top: 20em;
+        }
+
+        .quote-card-3-position {
+            top: 10em;
+            margin-bottom: 30px;
+        }
+
+        .white-background {
+            padding-bottom: 10em;
+        }
+
+        //About Page
+        .aboutP-standard-cell {
+            padding: 0 125px;
+        }
+    }
+}
+@include tablet;
+
+
+@mixin desktop {
+    @media (min-width: $desktop-width) {
+        //About Page
+        .aboutP-standard-cell {
+            padding: 0 180px;
+        }
+    }
+}
+@include desktop;
+
+@mixin large-desktop {
+    @media (min-width: $large-desktop-width) {
+        //About Page
+        .aboutP-standard-cell {
+            padding: 50px 230px;
+        }
+    }
+}
+@include large-desktop;

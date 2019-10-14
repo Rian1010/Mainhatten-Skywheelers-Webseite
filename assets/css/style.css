@@ -1,3 +1,18 @@
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: #28a745; }
+
+.footer-title {
+  padding-top: 20px;
+  text-align: center; }
+
+li {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  text-align: center; }
+
 .cover-picture {
   width: 100%;
   height: 70vh;
@@ -25,10 +40,10 @@
   border: 1px solid;
   margin-bottom: 50px; }
 
-th {
+.table-header-BG {
   background-color: #28a745; }
 
-td {
+.standard-cell-BG {
   background-color: rgba(255, 165, 0, 0.5); }
 
 .card-spaces {
@@ -52,22 +67,36 @@ td {
   height: 250px;
   background-image: linear-gradient(to right, rgba(255, 165, 0, 0.1), white, rgba(255, 165, 0, 0.1)); }
 
-footer {
+.aboutP-heading {
+  margin-top: 70px; }
+
+#aboutCoverPic {
   width: 100%;
-  height: 300px;
-  background-color: #28a745; }
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(to right, rgba(255, 165, 0, 0.1), white, rgba(255, 165, 0, 0.1));
+  clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 20%); }
 
-.footer-title {
-  padding-top: 20px;
-  text-align: center; }
+#aboutSection2 {
+  padding: 100px 0; }
 
-li {
-  list-style: none;
-  text-decoration: none;
-  color: black;
-  text-align: center; }
+#aboutSection3 {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  background-color: rgba(255, 165, 0, 0.8);
+  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 20%); }
 
-@media (min-width: 767px) {
+.aboutP-standard-cell {
+  font-size: 24px; }
+
+.heading-margin-bottom {
+  padding-bottom: 80px; }
+
+@media (min-width: 576px) {
+  .aboutP-standard-cell {
+    padding: 0 80px; } }
+@media (min-width: 768px) {
   .quote-card-1-position {
     top: 20em; }
 
@@ -76,6 +105,15 @@ li {
     margin-bottom: 30px; }
 
   .white-background {
-    padding-bottom: 10em; } }
+    padding-bottom: 10em; }
+
+  .aboutP-standard-cell {
+    padding: 0 125px; } }
+@media (min-width: 992px) {
+  .aboutP-standard-cell {
+    padding: 0 180px; } }
+@media (min-width: 1200px) {
+  .aboutP-standard-cell {
+    padding: 50px 230px; } }
 
 /*# sourceMappingURL=style.css.map */
