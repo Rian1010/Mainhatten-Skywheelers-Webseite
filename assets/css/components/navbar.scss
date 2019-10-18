@@ -1,0 +1,13 @@
+.nav-green {
+    background-image: linear-gradient(265deg, #beffad, #49b32d);
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    background-color: rgb(255, 187, 61);
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}

@@ -1,7 +1,7 @@
 footer {
   width: 100%;
   height: 300px;
-  background-color: #28a745; }
+  background-image: linear-gradient(265deg, #beffad, #51c333); }
 
 .footer-title {
   padding-top: 20px;
@@ -13,6 +13,17 @@ li {
   color: black;
   text-align: center; }
 
+.nav-green {
+  background-image: linear-gradient(265deg, #beffad, #49b32d); }
+
+.nav-link {
+  color: white !important; }
+
+.nav-link:hover {
+  background-color: #ffbb3d;
+  transform: scale(1.1);
+  transition: .2s ease-in-out; }
+
 .underline {
   text-decoration: underline; }
 
@@ -21,8 +32,8 @@ li {
 
 .cover-picture {
   width: 100%;
-  height: 70vh;
-  background-image: linear-gradient(to right, rgba(255, 165, 0, 0.1), white, rgba(255, 165, 0, 0.1));
+  height: 95vh;
+  background-image: linear-gradient(rgba(255, 165, 0, 0.1), white, rgba(255, 165, 0, 0.1));
   margin-top: 55px; }
 
 .container-padding {
@@ -56,7 +67,7 @@ li {
   margin: 20px 0; }
 
 .orange-BG {
-  background-color: rgba(255, 165, 0, 0.8); }
+  background-image: linear-gradient(265deg, #ffd5a0, #ED8F03); }
 
 .card-bgimg-liga-1 {
   width: 100%;
@@ -73,6 +84,12 @@ li {
   height: 250px;
   background-image: linear-gradient(to right, rgba(255, 165, 0, 0.1), white, rgba(255, 165, 0, 0.1)); }
 
+/*
+linear-gradient(to right, #2ea90c, #57cc38, #48ea1d, #48ea1d, #57cc38, #2ea90c)
+linear-gradient(265deg, #48ea1d, #57cc38)
+linear-gradient(265deg, #beffad, #51c333)
+linear-gradient(265deg, #beffad, #4cb730)
+*/
 .aboutP-heading {
   margin-top: 70px; }
 
@@ -90,7 +107,7 @@ li {
 #aboutSection3 {
   padding-top: 150px;
   padding-bottom: 50px;
-  background-color: rgba(255, 165, 0, 0.8);
+  background-image: linear-gradient(265deg, #ffd5a0, #ED8F03);
   clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 20%); }
 
 .aboutP-standard-cell {
@@ -108,7 +125,7 @@ li {
   margin-bottom: 50px; }
 
 .kontakt-infos-BG {
-  background-color: rgba(255, 165, 0, 0.8);
+  background-image: linear-gradient(265deg, #ffd5a0, #ED8F03);
   padding-bottom: 125px; }
 
 .kontakt-space {
