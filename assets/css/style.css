@@ -4,14 +4,14 @@
 
 .liga-img-1, .liga-img-2, .liga-img-3 {
   width: 100%;
-  height: 250px; }
+  height: 450px; }
 
 .quote-card-position .meinungen-card:hover .card-bgimg-liga .liga-img-1, .quote-card-position .meinungen-card-2:hover .card-bgimg-liga .liga-img-2, .quote-card-position .meinungen-card-3:hover .card-bgimg-liga .liga-img-3 {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 250px;
+  height: 450px;
   object-fit: contain; }
 
 .quote-card-position .meinungen-card .layer.layer1, .quote-card-position .meinungen-card-2 .layer.layer1, .quote-card-position .meinungen-card-3 .layer.layer1 {
@@ -35,7 +35,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 250px;
+  height: 450px;
   background-image: linear-gradient(white, rgba(0, 255, 0, 0.8));
   color: #000;
   transition: .8s ease-in-out;
@@ -93,7 +93,7 @@
 
 .quote-card-position .meinungen-card {
   width: 70%;
-  height: 250px;
+  height: 450px;
   position: relative;
   overflow: hidden; }
 
@@ -102,7 +102,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 250px;
+  height: 450px;
   transition: .5s ease-in-out; }
 
 .quote-card-position .meinungen-card:hover .card-bgimg-liga {
@@ -138,12 +138,6 @@
 .quote-card-position .meinungen-card:hover .meinungen-text .card-text-section {
   transform: translateY(0%); }
 
-.meinungen-card-position {
-  margin-top: 23%; }
-
-.meinungen-card-position-3 {
-  margin-left: 49%; }
-
 footer {
   width: 100%;
   height: 300px;
@@ -176,7 +170,7 @@ li {
   align-content: space-around; }
 
 .social-media-icons-footer li {
-  padding: 0px 3em; }
+  padding: 0px 1em; }
 
 .nav-green {
   background-image: linear-gradient(265deg, #beffad, #49b32d); }
@@ -216,7 +210,7 @@ li {
 
 .cover-picture {
   width: 100%;
-  height: 95vh;
+  height: 98vh;
   background-image: linear-gradient(rgba(255, 165, 0, 0.1), white, rgba(255, 165, 0, 0.1));
   margin-top: 55px; }
 
@@ -229,7 +223,7 @@ li {
 
 .cover-pic-text {
   position: absolute;
-  top: 80%;
+  top: 85%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   text-align: center; }
@@ -288,7 +282,7 @@ linear-gradient(265deg, #beffad, #4cb730)
   padding-top: 150px;
   padding-bottom: 50px;
   background-image: linear-gradient(265deg, #ffd5a0, #ED8F03);
-  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 20%); }
+  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 7%); }
 
 .aboutP-standard-cell {
   font-size: 24px; }
@@ -315,21 +309,26 @@ linear-gradient(265deg, #beffad, #4cb730)
   .aboutP-standard-cell {
     padding: 0 80px; } }
 @media (min-width: 768px) {
-  .quote-card-1-position {
-    top: 20em; }
+  .meinungen-card-position {
+    margin-left: 49%; }
 
-  .quote-card-3-position {
-    top: 10em;
-    margin-bottom: 30px; }
+  .meinungen-card-position-3 {
+    margin-left: 49%; }
 
   .white-background {
     padding-bottom: 10em; }
 
   .aboutP-standard-cell {
-    padding: 0 125px; } }
+    padding: 0 125px; }
+
+  #aboutSection3 {
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 10%); } }
 @media (min-width: 992px) {
   .aboutP-standard-cell {
-    padding: 0 180px; } }
+    padding: 0 180px; }
+
+  #aboutSection3 {
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%); } }
 @media (min-width: 1200px) {
   .aboutP-standard-cell {
     padding: 50px 230px; } }

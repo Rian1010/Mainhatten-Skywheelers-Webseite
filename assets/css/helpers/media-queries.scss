@@ -17,13 +17,13 @@ $large-desktop-width: 1200px;
 @mixin tablet {
     @media (min-width: $tablet-width) {
         //Homepage
-        .quote-card-1-position {
-            top: 20em;
+
+        .meinungen-card-position {
+            margin-left: 49%;
         }
 
-        .quote-card-3-position {
-            top: 10em;
-            margin-bottom: 30px;
+        .meinungen-card-position-3 {
+            margin-left: 49%;
         }
 
         .white-background {
@@ -31,8 +31,13 @@ $large-desktop-width: 1200px;
         }
 
         //About Page
+
         .aboutP-standard-cell {
             padding: 0 125px;
+        }
+
+        #aboutSection3 {
+            clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 10%);
         }
     }
 }
@@ -44,6 +49,10 @@ $large-desktop-width: 1200px;
         //About Page
         .aboutP-standard-cell {
             padding: 0 180px;
+        }
+
+        #aboutSection3 {
+            clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
         }
     }
 }
