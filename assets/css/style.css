@@ -1,3 +1,149 @@
+.card-bgimg-mannschaft-1, .card-bgimg-mannschaft-2, .card-bgimg-mannschaft-3 {
+  width: 100%;
+  height: 250px; }
+
+.liga-img-1, .liga-img-2, .liga-img-3 {
+  width: 100%;
+  height: 250px; }
+
+.quote-card-position .meinungen-card:hover .card-bgimg-liga .liga-img-1, .quote-card-position .meinungen-card-2:hover .card-bgimg-liga .liga-img-2, .quote-card-position .meinungen-card-3:hover .card-bgimg-liga .liga-img-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  object-fit: contain; }
+
+.quote-card-position .meinungen-card .layer.layer1, .quote-card-position .meinungen-card-2 .layer.layer1, .quote-card-position .meinungen-card-3 .layer.layer1 {
+  background-image: linear-gradient(#adffe6, #2db3a8);
+  transition: .7s ease-in-out;
+  transform: translateY(100%); }
+
+.quote-card-position .meinungen-card:hover .layer.layer1, .quote-card-position .meinungen-card-2:hover .layer.layer1, .quote-card-position .meinungen-card-3:hover .layer.layer1 {
+  transform: translateY(-100%); }
+
+.quote-card-position .meinungen-card .layer.layer2, .quote-card-position .meinungen-card-2 .layer.layer2, .quote-card-position .meinungen-card-3 .layer.layer2 {
+  background-image: linear-gradient(#ffc6a0, #ffbe92);
+  transition: .8s ease-in-out;
+  transform: translateY(200%); }
+
+.quote-card-position .meinungen-card:hover .layer.layer2, .quote-card-position .meinungen-card-2:hover .layer.layer2, .quote-card-position .meinungen-card-3:hover .layer.layer2 {
+  transform: translateY(-100%); }
+
+.quote-card-position .meinungen-card .meinungen-text, .quote-card-position .meinungen-card .meinungen-text-2, .quote-card-position .meinungen-card .meinungen-text-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  background-image: linear-gradient(white, rgba(0, 255, 0, 0.8));
+  color: #000;
+  transition: .8s ease-in-out;
+  transform: translateY(300%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 40px; }
+
+.quote-card-position .meinungen-card:hover .meinungen-text, .quote-card-position .meinungen-card:hover .meinungen-text-2, .quote-card-position .meinungen-card:hover .meinungen-text-3 {
+  transform: translateY(0%); }
+
+.quote-card-position .meinungen-card .meinungen-text .card-text-section, .quote-card-position .meinungen-card .meinungen-text-2 .card-text-section, .quote-card-position .meinungen-card .meinungen-text-3 .card-text-section {
+  transition: 1.7s ease-in-out;
+  transform: translateY(400%); }
+
+.quote-card-position .meinungen-card:hover .meinungen-text .card-text-section {
+  transform: translateY(0%); }
+
+.quote-card-position .meinungen-card:hover .meinungen-text-2 .card-text-section {
+  transform: translateY(0%); }
+
+.quote-card-position .meinungen-card:hover .meinungen-text-3 .card-text-section {
+  transform: translateY(0%); }
+
+.card {
+  width: 400px; }
+
+.card-spaces {
+  margin: 20px 0; }
+
+.card-bgimg-mannschaft-1 {
+  background-image: linear-gradient(to right, rgba(255, 165, 0, 0.1), white, rgba(255, 165, 0, 0.1)); }
+
+.card-bgimg-mannschaft-2 {
+  background-image: linear-gradient(to right, rgba(255, 165, 0, 0.1), white, rgba(255, 165, 0, 0.1)); }
+
+.card-bgimg-mannschaft-3 {
+  background-image: linear-gradient(to right, rgba(255, 165, 0, 0.1), white, rgba(255, 165, 0, 0.1)); }
+
+.liga-img-1 {
+  background-image: linear-gradient(to right, rgba(255, 165, 0, 0.1), white, rgba(255, 165, 0, 0.1)); }
+
+.liga-img-2 {
+  background-image: linear-gradient(to right, rgba(255, 165, 0, 0.1), white, rgba(255, 165, 0, 0.1)); }
+
+.liga-img-3 {
+  background-image: linear-gradient(to right, rgba(255, 165, 0, 0.1), white, rgba(255, 165, 0, 0.1)); }
+
+.quote-card-position {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%; }
+
+.quote-card-position .meinungen-card {
+  width: 70%;
+  height: 250px;
+  position: relative;
+  overflow: hidden; }
+
+.quote-card-position .meinungen-card .card-bgimg-liga {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  transition: .5s ease-in-out; }
+
+.quote-card-position .meinungen-card:hover .card-bgimg-liga {
+  transform: translateY(-100%); }
+
+.quote-card-position .meinungen-card .layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-100%); }
+
+.quote-card-position .meinungen-card .layer.layer1 {
+  background-image: linear-gradient(#adffe6, #2db3a8); }
+
+.quote-card-position .meinungen-card:hover .layer.layer1 {
+  transform: translateY(-100%); }
+
+.quote-card-position .meinungen-card .layer.layer2 {
+  background-image: linear-gradient(#ffc6a0, #ffbe92); }
+
+.quote-card-position .meinungen-card:hover .layer.layer2 {
+  transform: translateY(-100%); }
+
+.quote-card-position .meinungen-card:hover .meinungen-text {
+  transform: translateY(0%); }
+
+.quote-card-position .meinungen-card .meinungen-text .card-text-section {
+  transition: 1.7s ease-in-out;
+  transform: translateY(400%); }
+
+.quote-card-position .meinungen-card:hover .meinungen-text .card-text-section {
+  transform: translateY(0%); }
+
+.meinungen-card-position {
+  margin-top: 23%; }
+
+.meinungen-card-position-3 {
+  margin-left: 49%; }
+
 footer {
   width: 100%;
   height: 300px;
@@ -25,14 +171,13 @@ li {
 .footer-link:hover {
   color: black; }
 
-/*.social-media-icons-footer{
-    display: flex;
-    align-content: space-around;
-}
+.social-media-icons-footer {
+  display: flex;
+  align-content: space-around; }
 
-.social-media-icons-footer li{
-    padding: 0px 3em;
-}*/
+.social-media-icons-footer li {
+  padding: 0px 3em; }
+
 .nav-green {
   background-image: linear-gradient(265deg, #beffad, #49b32d); }
 
@@ -65,6 +210,9 @@ li {
 
 .font-weight-500 {
   font-weight: 500; }
+
+.container-fluid {
+  padding-right: 0; }
 
 .cover-picture {
   width: 100%;
@@ -113,26 +261,8 @@ li {
 .standard-cell-BG {
   background-color: rgba(255, 165, 0, 0.5); }
 
-.card-spaces {
-  margin: 20px 0; }
-
 .orange-BG {
   background-image: linear-gradient(265deg, #ffd5a0, #ED8F03); }
-
-.card-bgimg-liga-1 {
-  width: 100%;
-  height: 250px;
-  background-image: linear-gradient(to right, rgba(255, 165, 0, 0.1), white, rgba(255, 165, 0, 0.1)); }
-
-.card-bgimg-liga-2 {
-  width: 100%;
-  height: 250px;
-  background-image: linear-gradient(to right, rgba(255, 165, 0, 0.1), white, rgba(255, 165, 0, 0.1)); }
-
-.card-bgimg-liga-3 {
-  width: 100%;
-  height: 250px;
-  background-image: linear-gradient(to right, rgba(255, 165, 0, 0.1), white, rgba(255, 165, 0, 0.1)); }
 
 /*
 linear-gradient(to right, #2ea90c, #57cc38, #48ea1d, #48ea1d, #57cc38, #2ea90c)

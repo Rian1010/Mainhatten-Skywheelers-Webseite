@@ -1,0 +1,111 @@
+.card {
+    width:400px;
+}
+
+.card-spaces {
+    margin: 20px 0;
+}
+
+//Mannschaftskarten
+
+.card-bgimg-mannschaft-1 {
+    background-image: linear-gradient(to right, rgba(255,165,0,0.1), rgb(255,255,255), rgba(255,165,0,0.1));
+}
+
+.card-bgimg-mannschaft-2 {
+    background-image: linear-gradient(to right, rgba(255,165,0,0.1), rgb(255,255,255), rgba(255,165,0,0.1));
+}
+
+.card-bgimg-mannschaft-3 {
+    background-image: linear-gradient(to right, rgba(255,165,0,0.1), rgb(255,255,255), rgba(255,165,0,0.1));
+}
+
+
+
+//Ligakarten
+.liga-img-1{
+    background-image: linear-gradient(to right, rgba(255,165,0,0.1), rgb(255,255,255), rgba(255,165,0,0.1));
+}
+
+.liga-img-2{
+    background-image: linear-gradient(to right, rgba(255,165,0,0.1), rgb(255,255,255), rgba(255,165,0,0.1));
+}
+
+.liga-img-3{
+    background-image: linear-gradient(to right, rgba(255,165,0,0.1), rgb(255,255,255), rgba(255,165,0,0.1));
+}
+
+.quote-card-position {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.quote-card-position .meinungen-card {
+    width: 70%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.quote-card-position .meinungen-card .card-bgimg-liga {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    transition: .5s ease-in-out;
+}
+
+.quote-card-position .meinungen-card:hover .card-bgimg-liga {
+    transform: translateY(-100%);
+}
+
+
+.quote-card-position .meinungen-card .layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-100%);
+}
+
+.quote-card-position .meinungen-card .layer.layer1 {
+    background-image: linear-gradient(#adffe6, #2db3a8);
+}
+
+.quote-card-position .meinungen-card:hover .layer.layer1 {
+    transform: translateY(-100%);
+}
+
+.quote-card-position .meinungen-card .layer.layer2 {
+    background-image: linear-gradient(#ffc6a0, rgb(255, 190, 146));
+}
+
+.quote-card-position .meinungen-card:hover .layer.layer2 {
+    transform: translateY(-100%);
+}
+
+.quote-card-position .meinungen-card:hover .meinungen-text {
+    transform: translateY(0%);
+}
+
+.quote-card-position .meinungen-card .meinungen-text .card-text-section {
+    transition: 1.7s ease-in-out;
+    transform: translateY(400%);
+}
+
+.quote-card-position .meinungen-card:hover .meinungen-text .card-text-section {
+    transform: translateY(0%);
+}
+
+
+.meinungen-card-position {
+    margin-top: 23%;
+}
+
+.meinungen-card-position-3 {
+    margin-left: 49%;
+}
