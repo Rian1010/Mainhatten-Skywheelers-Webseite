@@ -6,8 +6,26 @@
     color: white !important;
 }
 
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    border-bottom: 1px solid rgb(255, 215, 169);
+    transition: width .3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    border-bottom: 1px solid rgb(255, 215, 169);
+    transition: width .3s;
+}
 .nav-link:hover {
-    background-color: rgb(255, 187, 61);
     transform: scale(1.1);
+    transition: .2s ease-in-out;
+    color: rgb(255, 215, 169) !important;
+}
+
+.theNavbrand:hover {
+    color: #ffd280 !important;
     transition: .2s ease-in-out;
 }
