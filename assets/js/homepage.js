@@ -69,3 +69,20 @@ window.addEventListener("scroll", appearByScroll2);
     }
     console.log(window.scrollY);
 appearByScroll2();
+
+$('a').on('click', function(event) {
+    event.preventDefault();
+    var $target = $(this);
+    $('article').load($target.attr('href')+' article', completeFunction);
+})
+/*
+$('#aboutPage').on('click', function(event) {
+    event.preventDefault();
+    $('article').load('about.html article', completeFunction);
+});
+*/
+function completeFunction(responseText, textStatus, request) {
+    if(textStatus == "error") {
+        $("article").text("An error occurred during your request: " + request.status + " " + request.statusText);
+    }
+}

@@ -7,7 +7,7 @@
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(to right, rgba(255,165,0,0.1), rgb(255,255,255), rgba(255,165,0,0.1));
+    background-image: linear-gradient(to right, rgba(255,165,0,0.1), rgb(255,255,255), rgba(255,165,0,0.1)), url('../img/SW-Cover.jpg');
     clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 20%);
 }
 
