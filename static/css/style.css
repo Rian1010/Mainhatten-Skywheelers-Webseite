@@ -1,0 +1,10 @@
+@import "navbar.css";
+@import "footer.css";
+
+@import "index.css";
+@import "about.css";
+@import "gallery.css";
+@import "contact.css";
+@import "news.css";
+
+@import "media-queries.css";

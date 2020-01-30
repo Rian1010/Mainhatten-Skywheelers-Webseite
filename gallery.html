@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Skywheelers Startseite</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
+    
+    <link rel="stylesheet" href="static/css/lightbox.min.css">
     <link rel="stylesheet" href="static/css/style.css">
 </head>
 
@@ -18,9 +18,7 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-dark nav-green fixed-top">
 
-
             <a href="index.html"><span class="navbar-brand theNavbrand">Mainhatten Skywheelers</span></a>
-
 
             <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
                 <span class="navbar-toggler-icon"></span>
@@ -42,105 +40,72 @@
                 </ul>
             </div>
         </nav>
-
     </header>
-
     <article>
-        <section class="contactP-heading">
-            <div class="container-fluid text-center">
-                <h1>Kontaktieren Sie Uns</h1>
-            </div>
-        </section>
-
-        <section class="justify-content-center">
-            <div class="container" id="message-section">
+        <section class="gallery-section-1">
+            <div class="container">
                 <div class="row">
-                    <div class="d-block d-md-none col-md-4 text-center kontakt-space">
-                        <div class="kontakt-infos-BG form-heading">
-                            <h2>Kontakt Daten</h2>
-                            <div class="contact-image"></div>
-                            <ul class="no-left-padding">
-                                <li>Adresse</li>
-                                <li>Adresse</li>
-                                <li>Adresse</li>
-                            </ul>
-                            <ul class="no-left-padding">
-                                <li>Telefonnummer</li>
-                                <li>0000000000</li>
-                            </ul>
-                            <ul class="no-left-padding">
-                                <li>E-Mail-Adresse</li>
-                                <li>e-mail@adresse.de</li>
-                            </ul>
-                        </div>
-
+                    <div class="col-12 text-center">
+                        <h1>Gallerie</h1>
                     </div>
-                    <div class="col-12 col-md-8 text-center">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="form-heading">
-                                    <h2>Senden Sie Uns Eine Nachricht</h2>
-                                </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row gallery">
+                    <div class="col-12">
+                        <a href="gallery-liga-1.html" class="no-underline"><div class="liga-link-box">
+                            <div class="liga-box-picture-1">
+                                <h2>Zur Gallerie der Ersten Liga >></h2>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-md-6 input-padding">
-                                <input type="text" name="name" id="name" placeholder="Name" class="form-control"
-                                    required />
-                            </div>
-                            <div class="col-12 col-md-6 input-padding">
-                                <input type="text" name="surname" id="surname" placeholder="Nachname"
-                                    class="form-control" required />
-                            </div>
-                        </div>
-                        <div class="row input-padding">
-                            <div class="col-12">
-                                <input type="email" name="email" id="email" placeholder="E-Mail-Adresse"
-                                    class="form-control" required />
-                            </div>
-                        </div>
-                        <div class="row input-padding">
-                            <div class="col-12">
-                                <textarea name="Message" id="contactMessage" placeholder="Nachricht"
-                                    class="form-control" rows="5" required></textarea>
-                            </div>
-                        </div>
-
-                        <div class="container">
-                            <div class="row input-padding justify-content-center">
-                                <div class="formsSubmit center-form">
-                                    <input type="submit" value="Submit" id="submitBtn" class="btn-success" />
-                                </div>
-                            </div>
-                        </div>
-
+                        </div></a>
                     </div>
-                    <div class="d-md-block d-none col-md-4 text-center kontakt-space">
-                        <div class="kontakt-infos-BG">
-                            <h2 class="form-heading">Kontakt Daten</h2>
-                            <div class="contact-image-md"></div>
-                            <ul class="no-left-padding">
-                                <li>Adresse</li>
-                                <li>Adresse</li>
-                                <li>Adresse</li>
-                            </ul>
-                            <ul class="no-left-padding">
-                                <li>Telefonnummer</li>
-                                <li>0000000000</li>
-                            </ul>
-                            <ul class="no-left-padding">
-                                <li>E-Mail-Adresse</li>
-                                <li>e-mail@adresse.de</li>
-                            </ul>
-                        </div>
-
+                </div>
+                <div class="row gallery">
+                    <div class="col-12">
+                        <a href="gallery-liga-2.html" class="no-underline"><div class="liga-link-box">
+                            <div class="liga-box-picture-2">
+                                <h2>Zur Gallerie der Zweiten Liga >></h2>
+                            </div>
+                        </div></a>
+                    </div>
+                </div>
+                <div class="row gallery">
+                    <div class="col-12">
+                        <a href="gallery-liga-3.html" class="no-underline"><div class="liga-link-box">
+                            <div class="liga-box-picture-3">
+                                <h2>Zur Gallerie der Dritten Liga >></h2>
+                            </div>
+                        </div></a>
+                    </div>
+                </div>
+                <div class="row gallery">
+                    <div class="col-12">
+                        <a href="gallery-spielbilder.html" class="no-underline"><div class="liga-link-box">
+                            <div class="liga-box-picture-4">
+                                <h2>Spielbilder >></h2>
+                            </div>
+                        </div></a>
                     </div>
                 </div>
             </div>
         </section>
-
+        <!-- <section class="grey-section" id="basketball-section">
+            <div class="container-fluid">
+                <div class="row basketball-animation-area">
+        
+                </div>
+                <div class="row basketball-animation-area">
+        
+                </div>
+                <div class="row basketball-animation-area">
+        
+                </div>
+            </div>
+        </section> -->
     </article>
+        
 
+    <!-- <footer> -->
     <footer>
         <div class="container-fluid">
             <div class="row justify-content-start">
@@ -174,7 +139,7 @@
             <div class="row justify-content-center">
                 <h2>Social Media</h2>
             </div>
-            <div class="row">
+            <div class="row ">
                 <div class="col-12">
                     <ul class="social-media-icons-footer">
                         <li class="facebook-footer"><a href="http://www.facebook.com" target="_blank"><i
@@ -191,11 +156,15 @@
         </div>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+    <script src="static/js/lightbox-plus-jquery.min.js"></script>
+    <script src="static/js/gallery.js"></script>
 </body>
 
 </html>
