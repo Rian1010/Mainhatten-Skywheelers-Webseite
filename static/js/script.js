@@ -7,4 +7,10 @@ $(document).ready(function () {
             $('.player-card-' + [i]).children().slideUp(500);
         });
     }
+
+    let anchor = document.querySelectorAll(".dropdown-btn-style");
+
+    if($(window).width() <= 992){
+        $(anchor).removeAttr("href").css({"text-align": "center", "color": "white"});
+    }
 });

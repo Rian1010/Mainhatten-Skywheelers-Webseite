@@ -1,4 +1,4 @@
-.news-content-margin {
+.news-top-margin {
     margin: 110px 0 70px;
 }
 
@@ -7,6 +7,20 @@
 }
 
 /* News Page 1 */
+
+.news-page-box-cont {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    padding: 0;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+}
+
+.news-page-box-cont:hover {
+    text-decoration: none;
+}
 
 .news1-cover-picture {
     width: 100%;
@@ -23,3 +37,68 @@
     align-items: flex-end;
 }
 
+.news-box1 {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url('../images/SW-Cover.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 60px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: solid #fff 2px;
+}
+
+.news-box1:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('../images/SW-Cover.jpg');
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.news-box2 {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url('../images/SW-Cover.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 60px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: solid #fff 2px;
+}
+
+.news-box2:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('../images/SW-Cover.jpg');
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.news-box3 {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url('../images/SW-Cover.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 60px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: solid #fff 2px;
+}
+
+.news-box3:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('../images/SW-Cover.jpg');
+    transform: scale(1.1);
+    transition: 0.5s;
+}

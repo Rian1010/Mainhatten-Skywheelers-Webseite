@@ -46,7 +46,11 @@
     align-items: flex-end;
 }
 
-.news-box1 {
+.news-box-cont:hover {
+    text-decoration: none;
+}
+
+.news-box-homepage {
     width: 100%;
     height: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url('../images/SW-Cover.jpg');
@@ -54,54 +58,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 30px 60px;
+    text-decoration: none;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
     color: white;
     border: solid #fff 2px;
 }
 
-.news-box1:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('../images/SW-Cover.jpg');
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
-.news-box2 {
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url('../images/SW-Cover.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 30px 40px;
-    display: flex;
-    align-items: flex-end;
-    color: white;
-    border: solid #fff 2px;
-}
-
-
-.news-box2:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('../images/SW-Cover.jpg');
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
-.news-box3 {
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url('../images/SW-Cover.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 30px 40px;
-    display: flex;
-    align-items: flex-end;
-    color: white;
-    border: solid #fff 2px;
-}
-
-.news-box3:hover {
+.news-box-homepage:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('../images/SW-Cover.jpg');
     transform: scale(1.1);
     transition: 0.5s;

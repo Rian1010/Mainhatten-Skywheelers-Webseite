@@ -26,7 +26,7 @@
 
 .liga-box-picture-1:hover {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.2)), url('../images/SW-Cover.jpg');
-    color: rgb(255, 210, 88);
+    color: rgb(255, 236, 182);
     transform: scale(1.1);
     filter: contrast(150%);
 }
@@ -45,7 +45,7 @@
 
 .liga-box-picture-2:hover {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.2)), url('../images/SW-Cover.jpg');
-    color: rgb(255, 210, 88);
+    color: rgb(255, 236, 182);
     transform: scale(1.1);
     filter: contrast(150%);
 }
@@ -64,7 +64,7 @@
 
 .liga-box-picture-3:hover {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.2)), url('../images/SW-Cover.jpg');
-    color: rgb(255, 210, 88);
+    color: rgb(255, 236, 182);
     transform: scale(1.1);
     filter: contrast(150%);
 }
@@ -83,7 +83,7 @@
 
 .liga-box-picture-4:hover {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.2)), url('../images/SW-Cover.jpg');
-    color: rgb(255, 210, 88);
+    color: rgb(255, 236, 182);
     transform: scale(1.1);
     filter: contrast(150%);
 }

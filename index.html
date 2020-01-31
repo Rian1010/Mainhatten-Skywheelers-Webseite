@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Skywheelers Startseite</title>
+    <link rel="icon" href="static/images/SW-Logo.jpg">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
 		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -18,7 +19,7 @@
 		<nav class="navbar navbar-expand-md navbar-dark nav-green fixed-top">
 
 
-			<a href="index.html"><span class="navbar-brand theNavbrand">Mainhatten Skywheelers</span></a>
+			<a href="index.html" class="brand-flex"><div class="logo-picture"></div><span class="navbar-brand theNavbrand">Mainhatten Skywheelers</span></a>
 
 
 			<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
@@ -32,11 +33,17 @@
 					<li class="nav-item">
 						<a id="aboutPage" class="nav-link" href="about.html">Über Uns</a>
 					</li>
-					<li class="nav-item">
-						<a id="galleryPage" class="nav-link" href="gallery.html">Gallerie</a>
-					</li>
 					<div class="dropdown">
-						<span class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false"><a href="news-page.html" class="dropdown-btn-style">News</a></span>
+						<span class="btn dropdown-background dropdown" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false"><a href="gallery.html" class="dropdown-btn-style">Gallerie</a></span>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="gallery-team-1.html">Mannschaft 1</a>
+							<a class="dropdown-item" href="gallery-team-2.html">Mannschaft 2</a>
+							<a class="dropdown-item" href="gallery-team-3.html">Mannschaft 3</a>
+							<a class="dropdown-item" href="gallery-spielbilder.html">Spielbilder</a>
+						</div>
+					</div>
+					<div class="dropdown">
+						<span class="btn dropdown-background dropdown" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false"><a href="news-page.html" class="dropdown-btn-style">News</a></span>
 						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 							<a class="dropdown-item" href="news-1.html">News 1</a>
 							<a class="dropdown-item" href="news-1.html">News 2</a>
@@ -60,6 +67,7 @@
 		</nav>
 
 	</header>
+    
 	<article>
 		<!-- Banner -->
 		<section class="cover-picture">
@@ -200,8 +208,8 @@
 
 					<div class="col-12 no-padding">
 						<a href="news-page.html" class="news-box-cont">
-							<div class="news-box1">
-								<h3>Lorem ipsum dolor sit amet.</h3>
+							<div class="news-box-homepage">
+								<h3>Hier geht's zu unseren Nachrichten >></h3>
 							</div>
 						</a>
 					</div>
@@ -330,12 +338,9 @@
 					<div class="footer-title">
 						<h2>Gallerie</h2>
 						<ul class="footer-list">
-							<li class="no-list-style"><a href="#" class="footer-link">Lorem, ipsum dolor.</a></li
-								class="no-list-style">
-							<li class="no-list-style"><a href="#" class="footer-link">Lorem, ipsum dolor.</a></li
-								class="no-list-style">
-							<li class="no-list-style"><a href="#" class="footer-link">Lorem, ipsum dolor.</a></li
-								class="no-list-style">
+							<li class="no-list-style"><a href="#" class="footer-link">Lorem, ipsum dolor.</a></li>
+							<li class="no-list-style"><a href="#" class="footer-link">Lorem, ipsum dolor.</a></li>
+							<li class="no-list-style"><a href="#" class="footer-link">Lorem, ipsum dolor.</a></li>
 						</ul>
 					</div>
 				</div>
