@@ -4,6 +4,7 @@
 
 .nav-link {
     color: white !important;
+    text-align: center;
 }
 
 .nav-link::after {
@@ -19,6 +20,7 @@
     border-bottom: 1px solid rgb(255, 215, 169);
     transition: width .3s;
 }
+
 .nav-link:hover {
     transform: scale(1.1);
     transition: .2s ease-in-out;
@@ -28,4 +30,30 @@
 .theNavbrand:hover {
     color: #ffd280 !important;
     transition: .2s ease-in-out;
+}
+
+.dropdown:hover>.dropdown-menu {
+    color: white;
+    display: block;
+}
+
+.dropdown-btn-style {
+    text-align: center;
+    color: white;
+    background-color: transparent;
+}
+
+.dropdown-btn-style::after {
+    content: '';
+    display: block;
+    width: 0;
+    border-bottom: 1px solid rgb(255, 215, 169);
+    transition: width .3s;
+}
+
+.dropdown-btn-style:hover::after {
+    width: 100%;
+    color: white;
+    border-bottom: 1px solid rgb(255, 215, 169);
+    transition: width .3s;
 }
