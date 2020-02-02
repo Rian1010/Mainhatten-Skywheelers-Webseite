@@ -1,0 +1,167 @@
+/* Team 1 */
+.gallery-section-1 {
+    margin-top: 120px;
+    margin-bottom: 70px;
+}
+
+.liga-1-pic-1 {
+    transition: .5s;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../images/Nuk.jpg');
+}
+.liga-1-pic-1:hover {
+    filter: contrast(150%);
+    transform: scale(1.1);
+}
+.liga-1-pic-2 {
+    transition: .5s;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../images/Jan.jpg');
+}
+.liga-1-pic-2:hover {
+    filter: contrast(150%);
+    transform: scale(1.1);
+}
+.liga-1-pic-3 {
+    transition: .5s;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../images/Chris.jpg');
+}
+.liga-1-pic-3:hover {
+    filter: contrast(150%);
+    transform: scale(1.1);
+}
+.liga-1-pic-4 {
+    transition: .5s;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../images/Sven.jpg');
+}
+.liga-1-pic-4:hover {
+    filter: contrast(150%);
+    transform: scale(1.1);
+}
+
+.liga-1-pic-5 {
+    transition: .5s;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../images/Tim.jpg');
+}
+.liga-1-pic-5:hover {
+    filter: contrast(150%);
+    transform: scale(1.1);
+}
+
+.liga-1-pic-6 {
+    transition: .5s;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../images/Homa.jpg');
+}
+.liga-1-pic-6:hover {
+    filter: contrast(150%);
+    transform: scale(1.1);
+}
+
+.liga-1-pic-7 {
+    transition: .5s;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../images/Flo.jpg');
+}
+.liga-1-pic-7:hover {
+    filter: contrast(150%);
+    transform: scale(1.1);
+}
+
+.liga-1-pic-8 {
+    transition: .5s;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../images/Marian.jpg');
+}
+.liga-1-pic-8:hover {
+    filter: contrast(150%);
+    transform: scale(1.1);
+}
+
+.liga-1-pic-9 {
+    transition: .5s;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../images/Juliana.jpg');
+}
+.liga-1-pic-9:hover {
+    filter: contrast(150%);
+    transform: scale(1.1);
+}
+
+.liga-1-pic-10 {
+    transition: .5s;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../images/Carsten.jpg');
+}
+.liga-1-pic-10:hover {
+    filter: contrast(150%);
+    transform: scale(1.1);
+}
+
+.liga-1-pic-11 {
+    transition: .5s;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../images/Fabi.jpg');
+}
+.liga-1-pic-11:hover {
+    filter: contrast(150%);
+    transform: scale(1.1);
+}

@@ -35,6 +35,12 @@
     flex-direction: column;
 }
 
+.form-flex {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
 .input-padding {
     padding-bottom: 10px;
 }
