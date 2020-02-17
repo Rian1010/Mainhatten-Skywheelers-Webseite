@@ -26,7 +26,7 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/images/Team1/Jan.jpg');
+    background-image: url('../images/Team1/Jan.jpg');
 }
 .liga-1-pic-2:hover {
     filter: contrast(150%);
@@ -40,7 +40,7 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/images/Team1/Chris.jpg');
+    background-image: url('../images/Team1/Chris.jpg');
 }
 .liga-1-pic-3:hover {
     filter: contrast(150%);
@@ -54,7 +54,7 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/images/Team1/Sven.jpg');
+    background-image: url('../images/Team1/Sven.jpg');
 }
 .liga-1-pic-4:hover {
     filter: contrast(150%);
@@ -69,7 +69,7 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/images/Team1/Tim.jpg');
+    background-image: url('../images/Team1/Tim.jpg');
 }
 .liga-1-pic-5:hover {
     filter: contrast(150%);
@@ -84,7 +84,7 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/images/Team1/Homa.jpg');
+    background-image: url('../images/Team1/Homa.jpg');
 }
 .liga-1-pic-6:hover {
     filter: contrast(150%);
@@ -99,7 +99,7 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/images/Team1/Flo.jpg');
+    background-image: url('../images/Team1/Flo.jpg');
 }
 .liga-1-pic-7:hover {
     filter: contrast(150%);
@@ -114,7 +114,7 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/images/Team1/Marian.jpg');
+    background-image: url('../images/Team1/Marian.jpg');
 }
 .liga-1-pic-8:hover {
     filter: contrast(150%);
@@ -129,7 +129,7 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/images/Team1/Juliana.jpg');
+    background-image: url('../images/Team1/Juliana.jpg');
 }
 .liga-1-pic-9:hover {
     filter: contrast(150%);
@@ -144,7 +144,7 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/images/Team1/Carsten.jpg');
+    background-image: url('../images/Team1/Carsten.jpg');
 }
 .liga-1-pic-10:hover {
     filter: contrast(150%);
@@ -159,7 +159,7 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/images/Team1/Fabi.jpg');
+    background-image: url('../images/Team1/Fabi.jpg');
 }
 .liga-1-pic-11:hover {
     filter: contrast(150%);
