@@ -7,12 +7,12 @@
 .liga-2-pic-1 {
     transition: .5s;
     width: 100%;
-    height: 300px;
+    height: 172px;
     margin-bottom: 30px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../images/Team2/Spieler.jpg');
+    background-image: url('/images/Team2/Spieler.jpg');
 }
 .liga-2-pic-1:hover {
     filter: contrast(150%);
@@ -21,12 +21,12 @@
 .liga-2-pic-2 {
     transition: .5s;
     width: 100%;
-    height: 300px;
+    height: 172px;
     margin-bottom: 30px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../images/Team2/Spieler-1.jpg');
+    background-image: url('/images/Team2/Spieler-1.jpg');
 }
 .liga-2-pic-2:hover {
     filter: contrast(150%);
@@ -35,12 +35,12 @@
 .liga-2-pic-3 {
     transition: .5s;
     width: 100%;
-    height: 300px;
+    height: 172px;
     margin-bottom: 30px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../images/Team2/Spielerin-4.jpg');
+    background-image: url('/images/Team2/Spielerin-4.jpg');
 }
 .liga-2-pic-3:hover {
     filter: contrast(150%);
@@ -49,12 +49,12 @@
 .liga-2-pic-4 {
     transition: .5s;
     width: 100%;
-    height: 300px;
+    height: 172px;
     margin-bottom: 30px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../images/Team2/Spieler-4.jpg');
+    background-image: url('/images/Team2/Spieler-5.jpg');
 }
 .liga-2-pic-4:hover {
     filter: contrast(150%);
@@ -64,12 +64,12 @@
 .liga-2-pic-5 {
     transition: .5s;
     width: 100%;
-    height: 300px;
+    height: 172px;
     margin-bottom: 30px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../images/Team2/Spieler-5.jpg');
+    background-image: url('/images/Team2/Spieler-7.jpg');
 }
 .liga-2-pic-5:hover {
     filter: contrast(150%);
@@ -79,12 +79,12 @@
 .liga-2-pic-6 {
     transition: .5s;
     width: 100%;
-    height: 300px;
+    height: 172px;
     margin-bottom: 30px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../images/Team2/Spieler-6.jpg');
+    background-image: url('/images/Team2/Spieler-8.jpg');
 }
 .liga-2-pic-6:hover {
     filter: contrast(150%);
@@ -94,12 +94,12 @@
 .liga-2-pic-7 {
     transition: .5s;
     width: 100%;
-    height: 300px;
+    height: 172px;
     margin-bottom: 30px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../images/Team2/Spieler-7.jpg');
+    background-image: url('/images/Team2/Spieler-8-Team2.jpg');
 }
 .liga-2-pic-7:hover {
     filter: contrast(150%);
@@ -109,12 +109,12 @@
 .liga-2-pic-8 {
     transition: .5s;
     width: 100%;
-    height: 300px;
+    height: 172px;
     margin-bottom: 30px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../images/Team2/Spieler-8.jpg');
+    background-image: url('/images/Team2/Spieler-10.jpg');
 }
 .liga-2-pic-8:hover {
     filter: contrast(150%);
@@ -124,12 +124,12 @@
 .liga-2-pic-9 {
     transition: .5s;
     width: 100%;
-    height: 300px;
+    height: 172px;
     margin-bottom: 30px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../images/Team2/Spieler-8-Team2.jpg');
+    background-image: url('/images/Team2/Spieler-12.jpg');
 }
 .liga-2-pic-9:hover {
     filter: contrast(150%);
@@ -139,12 +139,12 @@
 .liga-2-pic-10 {
     transition: .5s;
     width: 100%;
-    height: 300px;
+    height: 172px;
     margin-bottom: 30px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../images/Team2/Spieler-10.jpg');
+    background-image: url('/images/Team2/Spieler-13.jpg');
 }
 .liga-2-pic-10:hover {
     filter: contrast(150%);
@@ -154,12 +154,12 @@
 .liga-2-pic-11 {
     transition: .5s;
     width: 100%;
-    height: 300px;
+    height: 172px;
     margin-bottom: 30px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../images/Team2/Spieler-12.jpg');
+    background-image: url('/images/Team2/Spieler-14.jpg');
 }
 .liga-2-pic-11:hover {
     filter: contrast(150%);
@@ -169,12 +169,12 @@
 .liga-2-pic-12 {
     transition: .5s;
     width: 100%;
-    height: 300px;
+    height: 172px;
     margin-bottom: 30px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../images/Team2/Spieler-13.jpg');
+    background-image: url('/images/Team2/Spieler-18.jpg');
 }
 .liga-2-pic-12:hover {
     filter: contrast(150%);
@@ -184,12 +184,12 @@
 .liga-2-pic-13 {
     transition: .5s;
     width: 100%;
-    height: 300px;
+    height: 172px;
     margin-bottom: 30px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../images/Team2/Spieler-14.jpg');
+    background-image: url('../images/Team2/Spieler-20.jpg');
 }
 .liga-2-pic-13:hover {
     filter: contrast(150%);
@@ -199,12 +199,12 @@
 .liga-2-pic-14 {
     transition: .5s;
     width: 100%;
-    height: 300px;
+    height: 172px;
     margin-bottom: 30px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../images/Team2/Spieler-18.jpg');
+    background-image: url('../images/Team2/Spieler-21.jpg');
 }
 .liga-2-pic-14:hover {
     filter: contrast(150%);
@@ -214,12 +214,12 @@
 .liga-2-pic-15 {
     transition: .5s;
     width: 100%;
-    height: 300px;
+    height: 172px;
     margin-bottom: 30px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../images/Team2/Spieler-20.jpg');
+    background-image: url('../images/Team2/Spieler-33.jpg');
 }
 .liga-2-pic-15:hover {
     filter: contrast(150%);
@@ -229,44 +229,14 @@
 .liga-2-pic-16 {
     transition: .5s;
     width: 100%;
-    height: 300px;
+    height: 172px;
     margin-bottom: 30px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../images/Team2/Spieler-21.jpg');
+    background-image: url('../images/Team2/Spieler-Brueder.jpg');
 }
 .liga-2-pic-16:hover {
-    filter: contrast(150%);
-    transform: scale(1.1);
-}
-
-.liga-2-pic-17 {
-    transition: .5s;
-    width: 100%;
-    height: 300px;
-    margin-bottom: 30px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url('../images/Team2/Spieler-33.jpg');
-}
-.liga-2-pic-17:hover {
-    filter: contrast(150%);
-    transform: scale(1.1);
-}
-
-.liga-2-pic-18 {
-    transition: .5s;
-    width: 100%;
-    height: 300px;
-    margin-bottom: 30px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url('../images/Team2/Spieler-Brüder.jpg');
-}
-.liga-2-pic-18:hover {
     filter: contrast(150%);
     transform: scale(1.1);
 }
